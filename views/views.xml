@@ -1,0 +1,61 @@
+
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="hfc_project_cost_aggregator.list">
+      <field name="name">hfc_project_cost_aggregator list</field>
+      <field name="model">hfc_project_cost_aggregator.hfc_project_cost_aggregator</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="hfc_project_cost_aggregator.action_window">
+      <field name="name">hfc_project_cost_aggregator window</field>
+      <field name="res_model">hfc_project_cost_aggregator.hfc_project_cost_aggregator</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="hfc_project_cost_aggregator.action_server">
+      <field name="name">hfc_project_cost_aggregator server</field>
+      <field name="model_id" ref="model_hfc_project_cost_aggregator_hfc_project_cost_aggregator"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="hfc_project_cost_aggregator" id="hfc_project_cost_aggregator.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="hfc_project_cost_aggregator.menu_1" parent="hfc_project_cost_aggregator.menu_root"/>
+    <menuitem name="Menu 2" id="hfc_project_cost_aggregator.menu_2" parent="hfc_project_cost_aggregator.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="hfc_project_cost_aggregator.menu_1_list" parent="hfc_project_cost_aggregator.menu_1"
+              action="hfc_project_cost_aggregator.action_window"/>
+    <menuitem name="Server to list" id="hfc_project_cost_aggregator" parent="hfc_project_cost_aggregator.menu_2"
+              action="hfc_project_cost_aggregator.action_server"/>
+    -->
+  </data>
+</odoo>

@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hfc_project_cost_aggregator_hfc_project_cost_aggregator,hfc_project_cost_aggregator.hfc_project_cost_aggregator,model_hfc_project_cost_aggregator_hfc_project_cost_aggregator,,1,0,0,0
